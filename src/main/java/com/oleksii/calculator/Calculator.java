@@ -6,7 +6,8 @@ import org.springframework.stereotype.Service;
 public class Calculator {
 
     int sum(final int a, final int b) {
-        return a + b;
+        int result = a + b;
+        return result;
     }
 
 }
